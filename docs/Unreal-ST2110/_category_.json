@@ -1,0 +1,8 @@
+{
+  "label": "Unreal Rivermax ST2110 Integration",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "本專案針對 Unreal Engine 與 SMPTE ST 2110 的整合進行可行性研究，採用 Rivermax 作為傳輸介面，完成初步的系統架構驗證。包含架構設計、基本安裝與除錯流程。"
+  }
+}

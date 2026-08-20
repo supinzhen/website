@@ -1,0 +1,8 @@
+{
+  "label": "NGSVM Unreal Plugin",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "這是一個基於 Unreal Engine 5.7 的插件，用於即時 AI 去背，它基於 Unreal Engine 的 NNE（Neural Network Engine）構建。可以在 CPU 或 GPU（DirectML）上運行 RVM（(Robust Video Matting)）或 MODNet 模型，無需綠幕即可對即時視訊/相機畫面或單張靜態影像進行去背。"
+  }
+}
