@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Noting',
+    Svg: require('@site/static/img/PZN_Noting.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      記錄我的學習歷程——從小小的發現、除錯筆記，到那些真正推動我成長的想法。<br />
+        A space to record what I learn—small discoveries, debugging notes, and the ideas that shape my growth.
+      </>
+    ),
+  },
+    {
+    title: 'Creating',
+    Svg: require('@site/static/img/PZN_Creating.png').default,
+    description: (
+      <>
+        讓學習轉化為實際產出——插件、工具、原型與各種技術實驗，都反映了我的好奇心與探索精神。<br />
+        Where learning turns into output—plugins, tools, prototypes, and experiments that reflect my curiosity.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Documenting',
+    Svg: require('@site/static/img/PZN_Documenting.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      以結構化方式撰寫 Unreal Engine 插件、工具與專案的技術文件，內容著重實用、清楚、易於跟著操作。<br />
+        Structured documentation for my Unreal Engine plugins, tools, and projects, written to be practical and easy to follow.
       </>
     ),
   },
@@ -39,7 +39,7 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Svg} className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

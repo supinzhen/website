@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "supinzhen",
+  title: "Welcome",
   tagline:
-    "Learning by noting, documenting and creating.",
+    "Learning by noting, creating and documenting.",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
